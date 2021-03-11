@@ -58,25 +58,13 @@ public class MetodosRecursivos {
 
 		System.out.println(1);
 
-		if (n != 1) {
-			result = calcularFibonacciRecursivo(1,1,n-2);
+		if (n == 1 || n == 2) {
+			return 1;
+		} else {
+			result = calcularFibonacci(n-1) + calcularFibonacci(n-2);
 		}
-
-		System.out.println("---");
 
 		return result;
-	}
-
-	private int calcularFibonacciRecursivo(int a, int b, int n) {
-		//'a' é o termo (n-1) e 'b' é o termo (n) da sequencia
-
-		System.out.println(b);
-
-		if (n != 0) {
-			return calcularFibonacciRecursivo(b, a+b, n-1);
-		}
-
-		return b;
 	}
 
 	public int countNotNull(Object[] array) {
@@ -86,17 +74,19 @@ public class MetodosRecursivos {
 		// QUANTIDADE DE ELEMENTOS NAO NULOS
 		// DE UM ARRAY DE OBJETOS RECEBIDO COMO PARAMETRO
 
-		result = countNotNullRecursivo(array, 0, 0);
+		result = countNotNullRecursivo(array, 0);
 
 		return result;
 	}
 
-	private int countNotNullRecursivo(Object[] array, int indice, int count) {
+	private int countNotNullRecursivo(Object[] array, int indice) {
+		int count = 0;
+
 		if (array.length != indice) {
 			if (array[indice] == null) {
 				count += 1;
 			}
-			return countNotNullRecursivo(array, indice+1, count);
+			return count + countNotNullRecursivo(array, indice+1);
 		}
 
 		return count;
