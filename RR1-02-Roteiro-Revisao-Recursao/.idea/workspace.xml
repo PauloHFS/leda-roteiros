@@ -6,7 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="a7d844ce-3c05-41aa-b120-8367d71c1090" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/recursao/MetodosRecursivos.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/recursao/MetodosRecursivos.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,19 +56,6 @@
     </key>
   </component>
   <component name="RunManager" selected="JUnit.MetodosRecursivosTest.countNotNull">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MetodosRecursivosTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="submission" />
       <extension name="coverage">
@@ -172,6 +158,7 @@
       <workItem from="1615294744821" duration="4245000" />
       <workItem from="1615471433000" duration="996000" />
       <workItem from="1615472478280" duration="612000" />
+      <workItem from="1615815786005" duration="10000" />
     </task>
     <servers />
   </component>
