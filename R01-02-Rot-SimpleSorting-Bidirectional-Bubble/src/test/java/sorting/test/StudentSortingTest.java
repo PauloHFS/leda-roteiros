@@ -2,6 +2,8 @@ package sorting.test;
 
 import java.util.Arrays;
 
+import sorting.simpleSorting.*;
+
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -38,8 +40,8 @@ public class StudentSortingTest {
 	private void getImplementation() {
 		// TODO O aluno deve instanciar sua implementação abaixo ao invés de
 		// null
-		this.implementation = null;
-		Assert.fail("Implementation not provided");
+		this.implementation = new BubbleSort<Integer>();
+		//Assert.fail("Implementation not provided");
 	}
 
 	public void populaVetorTamanhoPar(Integer[] arrayPadrao) {
