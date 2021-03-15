@@ -2,7 +2,7 @@ package sorting.test;
 
 import java.util.Arrays;
 
-import sorting.variationsOfSelectionsort.RecursiveSelectionSort;
+import sorting.variationsOfBubblesort.*;
 
 import org.junit.Assert;
 import org.junit.Before;
@@ -40,7 +40,7 @@ public class StudentSortingTest {
 	private void getImplementation() {
 		// TODO O aluno deve instanciar sua implementação abaixo ao invés de
 		// null
-		this.implementation = new RecursiveSelectionSort<Integer>();
+		this.implementation = new RecursiveBubbleSort<Integer>();
 		//Assert.fail("Implementation not provided");
 	}
 
@@ -102,7 +102,7 @@ public class StudentSortingTest {
 	}
 
 	// MÉTODOS QUE OS ALUNOS PODEM CRIAR
-	/**
+	/*
 	 * O ALUNO PODE IMPLEMENTAR METODOS DE ORDENAÇÃO TESTANDO O SORT COM TRES
 	 * ARGUMENTOS PARA TESTAR A ORDENACAO EM UM PEDAÇO DO ARRAY. DICA: PROCUREM
 	 * SEGUIR A ESTRUTURA DOS MÉTODOS DE TESTE ACIMA DESCRITOS, ORDENANDO APENAS
