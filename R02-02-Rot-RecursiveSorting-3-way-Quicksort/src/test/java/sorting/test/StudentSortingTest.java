@@ -7,6 +7,7 @@ import org.junit.Before;
 import org.junit.Test;
 
 import sorting.AbstractSorting;
+import sorting.divideAndConquer.MergeSort;
 
 public class StudentSortingTest {
 
@@ -38,8 +39,7 @@ public class StudentSortingTest {
 	private void getImplementation() {
 		// TODO O aluno deve instanciar sua implementação abaixo ao invés de
 		// null
-		this.implementation = null;
-		Assert.fail("Implementation not provided");
+		this.implementation = new MergeSort<>();
 	}
 
 	public void populaVetorTamanhoPar(Integer[] arrayPadrao) {
@@ -106,4 +106,13 @@ public class StudentSortingTest {
 	 * SEGUIR A ESTRUTURA DOS MÉTODOS DE TESTE ACIMA DESCRITOS, ORDENANDO APENAS
 	 * UMA PARTE DO ARRAY.
 	 */
+
+	@Test
+	public void testSort() {
+		Integer[] arr = {0,5,1,6,2,7,3,8,4,9};
+		Integer[] cp = Arrays.copyOf(arr, arr.length);
+		implementation.sort(arr);
+		Arrays.sort(cp);
+		Assert.assertArrayEquals(cp, arr);
+	}
 }
