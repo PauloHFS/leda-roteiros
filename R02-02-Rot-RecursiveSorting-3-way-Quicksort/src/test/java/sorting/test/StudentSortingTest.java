@@ -8,6 +8,7 @@ import org.junit.Test;
 
 import sorting.AbstractSorting;
 import sorting.divideAndConquer.MergeSort;
+import sorting.divideAndConquer.QuickSort;
 
 public class StudentSortingTest {
 
@@ -39,7 +40,7 @@ public class StudentSortingTest {
 	private void getImplementation() {
 		// TODO O aluno deve instanciar sua implementação abaixo ao invés de
 		// null
-		this.implementation = new MergeSort<>();
+		this.implementation = new QuickSort<>();
 	}
 
 	public void populaVetorTamanhoPar(Integer[] arrayPadrao) {
@@ -113,6 +114,24 @@ public class StudentSortingTest {
 		Integer[] cp = Arrays.copyOf(arr, arr.length);
 		implementation.sort(arr);
 		Arrays.sort(cp);
+		Assert.assertArrayEquals(cp, arr);
+	}
+
+	@Test
+	public void testInverso() {
+		Integer[] arr = {9,8,7,6,5,4,3,2,1,0};
+		Integer[] cp = Arrays.copyOf(arr, arr.length);
+		implementation.sort(arr);
+		Arrays.sort(cp);
+		Assert.assertArrayEquals(cp, arr);
+	}
+
+	@Test
+	public void testInverso3a8() {
+		Integer[] arr = {9,8,7,6,5,4,3,2,1,0};
+		Integer[] cp = Arrays.copyOf(arr, arr.length);
+		implementation.sort(arr, 3, 8);
+		Arrays.sort(cp, 3, 9);
 		Assert.assertArrayEquals(cp, arr);
 	}
 }
