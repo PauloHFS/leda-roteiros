@@ -6,10 +6,16 @@
   <component name="ChangeListManager">
     <list default="true" id="9b805745-fbd9-4b83-a216-fe1458c93cc9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/divideAndConquer/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/divideAndConquer/QuickSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/119210311-send.log" beforeDir="false" afterPath="$PROJECT_DIR$/119210311-send.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/divideAndConquer/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/divideAndConquer/MergeSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/divideAndConquer/threeWayQuicksort/ThreeWayQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/divideAndConquer/threeWayQuicksort/ThreeWayQuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sorting/divideAndConquer/MergeSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sorting/divideAndConquer/MergeSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sorting/divideAndConquer/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sorting/divideAndConquer/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/119210311.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/119210311.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sorting/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/sorting/divideAndConquer/threeWayQuicksort/ThreeWayQuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sorting/divideAndConquer/threeWayQuicksort/ThreeWayQuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/submission-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/submission-1.0.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/sorting/test/StudentSortingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sorting/test/StudentSortingTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,6 +41,11 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="StudentSortingTest" />
+    </enabled-run-configurations>
+  </component>
   <component name="ProjectId" id="1q773Lc1O5xPqC8ve6YoA7lpucP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -57,28 +68,13 @@
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunManager" selected="JUnit.StudentSortingTest">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="sorting.Main" />
-      <module name="submission" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="sorting.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -124,10 +120,13 @@
       </MavenSettings>
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="JUnit.StudentSortingTest" />
+      <item itemvalue="Maven.submission [install,-DskipTests]" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.StudentSortingTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -141,7 +140,10 @@
       <updated>1616418576112</updated>
       <workItem from="1616418578099" duration="340000" />
       <workItem from="1616427121548" duration="10705000" />
-      <workItem from="1616517654564" duration="6503000" />
+      <workItem from="1616517654564" duration="8094000" />
+      <workItem from="1616603571158" duration="2942000" />
+      <workItem from="1616674983065" duration="3316000" />
+      <workItem from="1616782280455" duration="3381000" />
     </task>
     <servers />
   </component>

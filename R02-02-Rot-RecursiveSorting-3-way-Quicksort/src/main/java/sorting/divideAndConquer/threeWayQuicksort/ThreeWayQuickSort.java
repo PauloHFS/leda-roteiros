@@ -1,6 +1,7 @@
 package sorting.divideAndConquer.threeWayQuicksort;
 
 import sorting.AbstractSorting;
+import util.Util;
 
 public class ThreeWayQuickSort<T extends Comparable<T>> extends
 		AbstractSorting<T> {
@@ -23,10 +24,37 @@ public class ThreeWayQuickSort<T extends Comparable<T>> extends
 	 * as particoes contendo elementos menores e maiores do que o pivot. Isso eh feito
 	 * recursivamente. 
 	 **/
+
+	private static int start, end;
+
 	@Override
 	public void sort(T[] array, int leftIndex, int rightIndex) {
-		// TODO Auto-generated method stub
-		throw new UnsupportedOperationException("Not implemented yet!");
+		if (leftIndex < rightIndex) {
+			partition(array, leftIndex, rightIndex);
+			sort(array, leftIndex, start - 1);
+			sort(array, end + 1, rightIndex);
+		}
 	}
 
+	private void partition(T[] array, int leftIndex, int rightIndex) {
+		T pivot = array[leftIndex];
+
+		start = leftIndex;
+		end = rightIndex;
+
+		int i = leftIndex + 1;
+
+		while (i <= end) {
+			if (array[i].compareTo(pivot) < 0) {
+				Util.swap(array, i, start);
+				start += 1;
+				i++;
+			} else if (array[i].compareTo(pivot) > 0) {
+				Util.swap(array, i, end);
+				end--;
+			} else {
+				i++;
+			}
+		}
+	}
 }
