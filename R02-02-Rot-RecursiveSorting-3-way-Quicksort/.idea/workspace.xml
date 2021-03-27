@@ -7,16 +7,10 @@
     <list default="true" id="9b805745-fbd9-4b83-a216-fe1458c93cc9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/119210311-send.log" beforeDir="false" afterPath="$PROJECT_DIR$/119210311-send.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/Main.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/sorting/divideAndConquer/MergeSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/divideAndConquer/MergeSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/divideAndConquer/threeWayQuicksort/ThreeWayQuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/sorting/divideAndConquer/threeWayQuicksort/ThreeWayQuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/119210311.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/119210311.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sorting/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/sorting/divideAndConquer/threeWayQuicksort/ThreeWayQuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/sorting/divideAndConquer/threeWayQuicksort/ThreeWayQuickSort.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/submission-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/submission-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/sorting/test/StudentSortingTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sorting/test/StudentSortingTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,18 +61,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
-  <component name="RunManager" selected="JUnit.StudentSortingTest">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Maven.submission [install,-DskipTests]">
     <configuration name="StudentSortingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="submission" />
       <extension name="coverage">
@@ -144,6 +127,8 @@
       <workItem from="1616603571158" duration="2942000" />
       <workItem from="1616674983065" duration="3316000" />
       <workItem from="1616782280455" duration="3381000" />
+      <workItem from="1616854977792" duration="593000" />
+      <workItem from="1616873008759" duration="1264000" />
     </task>
     <servers />
   </component>

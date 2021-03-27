@@ -33,28 +33,27 @@ public class MergeSort<T extends Comparable<T>> extends AbstractSorting<T> {
 			arrAux[i] = array[i];
 		}
 
-		int i = leftIndex, j = middleIndex + 1, x = leftIndex;
+		int indexArrayA = leftIndex, indexArrayB = middleIndex + 1, indexMain = leftIndex;
 
-		while (i <= middleIndex && j <= rightIndex) {
-			if (arrAux[i].compareTo(arrAux[j]) < 0) {
-				array[x] = arrAux[i];
-				i++;
+		while (indexArrayA <= middleIndex && indexArrayB <= rightIndex) {
+			if (arrAux[indexArrayA].compareTo(arrAux[indexArrayB]) < 0) {
+				array[indexMain] = arrAux[indexArrayA];
+				indexArrayA++;
 			} else {
-				array[x] = arrAux[j];
-				j++;
+				array[indexMain] = arrAux[indexArrayB];
+				indexArrayB++;
 			}
-			x++;
+			indexMain++;
 		}
 
-		for (;i <= middleIndex; i++) {
-			array[x] = arrAux[i];
-			x++;
+		for (;indexArrayA <= middleIndex; indexArrayA++) {
+			array[indexMain] = arrAux[indexArrayA];
+			indexMain++;
 		}
 
-
-		for (;j <= rightIndex; j++) {
-			array[x] = arrAux[j];
-			x++;
+		for (;indexArrayB <= rightIndex; indexArrayB++) {
+			array[indexMain] = arrAux[indexArrayB];
+			indexMain++;
 		}
 	}
 }
