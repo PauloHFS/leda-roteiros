@@ -4,27 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9b805745-fbd9-4b83-a216-fe1458c93cc9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03-02-Rot-LinearSorting-Countingsort/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R03-02-Rot-LinearSorting-Countingsort/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03-02-Rot-LinearSorting-Countingsort/src/main/java/sorting/AbstractSorting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03-02-Rot-LinearSorting-Countingsort/src/main/java/sorting/Sorting.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03-02-Rot-LinearSorting-Countingsort/src/main/java/sorting/linearSorting/CountingSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03-02-Rot-LinearSorting-Countingsort/src/main/java/sorting/linearSorting/ExtendedCountingSort.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03-02-Rot-LinearSorting-Countingsort/src/main/java/util/Util.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../R03-02-Rot-LinearSorting-Countingsort/src/test/java/sorting/test/StudentSortingTest.java" beforeDir="false" />
+    <list default="true" id="a47b5fa0-64ff-4721-9f29-1c65b1e9000e" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../R02-02-Rot-RecursiveSorting-3-way-Quicksort/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/AbstractSorting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/Sorting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/linearSorting/CountingSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/sorting/linearSorting/ExtendedCountingSort.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/util/Util.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sorting/test/StudentSortingTest.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -37,12 +30,10 @@
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
   </component>
-  <component name="JavaAutoRunManager">
-    <enabled-run-configurations>
-      <run-configuration type="JUnit" name="StudentSortingTest" />
-    </enabled-run-configurations>
+  <component name="ProblemsViewState">
+    <option name="selectedIndex" value="1" />
   </component>
-  <component name="ProjectId" id="1q773Lc1O5xPqC8ve6YoA7lpucP" />
+  <component name="ProjectId" id="1qoBW4umeQBo0JFUmTAEMR0ZWna" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -51,24 +42,36 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src/main" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager" selected="Maven.submission [install,-DskipTests]">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="StudentSortingTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="submission" />
+      <module name="R03-02-Rot-LinearSorting-Countingsort" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="sorting.test.*" />
@@ -109,8 +112,8 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JUnit.StudentSortingTest" />
       <item itemvalue="Maven.submission [install,-DskipTests]" />
+      <item itemvalue="JUnit.StudentSortingTest" />
     </list>
     <recent_temporary>
       <list>
@@ -121,24 +124,17 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9b805745-fbd9-4b83-a216-fe1458c93cc9" name="Default Changelist" comment="" />
-      <created>1616418576112</created>
+      <changelist id="a47b5fa0-64ff-4721-9f29-1c65b1e9000e" name="Default Changelist" comment="" />
+      <created>1617736097501</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1616418576112</updated>
-      <workItem from="1616418578099" duration="340000" />
-      <workItem from="1616427121548" duration="10705000" />
-      <workItem from="1616517654564" duration="8094000" />
-      <workItem from="1616603571158" duration="2942000" />
-      <workItem from="1616674983065" duration="3316000" />
-      <workItem from="1616782280455" duration="3381000" />
-      <workItem from="1616854977792" duration="593000" />
-      <workItem from="1616873008759" duration="1264000" />
-      <workItem from="1617107018745" duration="299000" />
-      <workItem from="1617749226687" duration="155000" />
-      <workItem from="1617749498429" duration="6000" />
-      <workItem from="1617749540009" duration="8000" />
-      <workItem from="1617749576047" duration="126000" />
+      <updated>1617736097501</updated>
+      <workItem from="1617736099945" duration="4621000" />
+      <workItem from="1617743553482" duration="5371000" />
+      <workItem from="1617749020550" duration="17000" />
+      <workItem from="1617749049064" duration="163000" />
+      <workItem from="1617749306127" duration="184000" />
+      <workItem from="1617749551679" duration="265000" />
     </task>
     <servers />
   </component>
