@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d39223b0-d10a-47a1-a5cb-9815dda9aed6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/orderStatistic/KLargestOrderStatisticsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/orderStatistic/KLargestOrderStatisticsImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/orderStatistic/QuickSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/orderStatistic/QuickSelect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/problems/FloorBinarySearchImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/problems/FloorBinarySearchImpl.java" afterDir="false" />
-    </list>
+    <list default="true" id="d39223b0-d10a-47a1-a5cb-9815dda9aed6" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -106,6 +102,7 @@
       <workItem from="1618162336744" duration="541000" />
       <workItem from="1618163045291" duration="18584000" />
       <workItem from="1618196478093" duration="746000" />
+      <workItem from="1618239788781" duration="2000" />
     </task>
     <servers />
   </component>
