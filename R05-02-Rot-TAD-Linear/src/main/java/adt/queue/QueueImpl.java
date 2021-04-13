@@ -43,17 +43,17 @@ public class QueueImpl<T> implements Queue<T> {
 
 	@Override
 	public T dequeue() throws QueueUnderflowException {
-		T result;
+		T element;
 
 		if (!this.isEmpty()) {
-			result = this.array[0];
+			element = this.array[0];
 			this.shiftLeft();
 			this.tail--;
 		} else {
 			throw new QueueUnderflowException();
 		}
 
-		return result;
+		return element;
 	}
 
 }
