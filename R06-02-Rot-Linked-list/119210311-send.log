@@ -47,3 +47,33 @@
   <level>FINE</level>
   <message>File 119210311-PAULO HERNANE FONTES E SILVA.zip was received. It was sent by PAULO HERNANE FONTES E SILVA from IP 192.168.0.115 at 25-04-2021 19*21*49</message>
 </record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-04-25T19:50:23.662-0300</date>
+  <logger>PAULO HERNANE FONTES E SILVA</logger>
+  <level>FINE</level>
+  <message>File 119210311-PAULO HERNANE FONTES E SILVA.zip was received. It was sent by PAULO HERNANE FONTES E SILVA from IP 192.168.0.115 at 25-04-2021 19*50*23</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-04-25T19:51:45.730-0300</date>
+  <logger>PAULO HERNANE FONTES E SILVA</logger>
+  <level>FINE</level>
+  <message>File 119210311-PAULO HERNANE FONTES E SILVA.zip was received. It was sent by PAULO HERNANE FONTES E SILVA from IP 192.168.0.115 at 25-04-2021 19*51*45</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2021-04-25T20:31:11.330-0300</date>
+  <logger>PAULO HERNANE FONTES E SILVA</logger>
+  <level>FINE</level>
+  <message>File 119210311-PAULO HERNANE FONTES E SILVA.zip was received. It was sent by PAULO HERNANE FONTES E SILVA from IP 192.168.0.115 at 25-04-2021 20*31*11</message>
+</record>
