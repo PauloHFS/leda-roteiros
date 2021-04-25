@@ -2,7 +2,7 @@ package adt.linkedList;
 
 public class SingleLinkedListImpl<T> implements LinkedList<T> {
 
-	private int size;
+	protected int size;
 
 	protected SingleLinkedListNode<T> head;
 
