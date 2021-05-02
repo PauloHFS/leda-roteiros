@@ -68,71 +68,53 @@ public class HashtableClosedAddressImpl<T> extends
 
 	@Override
 	public void insert(T element) {
-		/*
-		int hash = ((HashFunctionClosedAddress<T>) this.hashFunction).hash(element);
+		if (element != null && !this.isFull()) {
 
-		LinkedList<T> elementsList = (LinkedList<T>) this.table[hash];
+			int hash = Math.abs(((HashFunctionClosedAddress<T>) this.hashFunction).hash(element));
 
-		if (elementsList == null) {
-			elementsList = new LinkedList<T>();
-			this.table[hash] = elementsList;
-		} else {
-			boolean containsElement = false;
+			if (this.table[hash] == null) {
+				this.table[hash] = new LinkedList<T>();
+			} else {
+				boolean containsElement = false;
 
-			for (T e: elementsList) {
-				if (e.equals(element)) {
-					containsElement = true;
-					break;
+				for (T e : (LinkedList<T>) this.table[hash]) {
+					if (e.equals(element)) {
+						containsElement = true;
+						break;
+					}
+				}
+
+				if (!containsElement) {
+					this.COLLISIONS++;
 				}
 			}
 
-			if (!containsElement) {
-				this.COLLISIONS++;
-			}
+			((LinkedList<T>) this.table[hash]).add(element);
+			this.elements++;
+
 		}
-
-		elementsList.add(element);
-		this.elements++;
-		 */
-		int hash = ((HashFunctionClosedAddress<T>) this.hashFunction).hash(element);
-
-		if (this.table[hash] == null) {
-			this.table[hash] = new LinkedList<T>();
-		} else {
-			boolean containsElement = false;
-
-			for (T e: (LinkedList<T>) this.table[hash]) {
-				if (e.equals(element)) {
-					containsElement = true;
-					break;
-				}
-			}
-
-			if (!containsElement) {
-				this.COLLISIONS++;
-			}
-		}
-
-		((LinkedList<T>) this.table[hash]).add(element);
-		this.elements++;
 	}
 
 	@Override
 	public void remove(T element) {
-		int hash = ((HashFunctionClosedAddress<T>) this.hashFunction).hash(element);
+		if (element != null && !this.isEmpty()) {
 
-		LinkedList<T> elementsList = (LinkedList<T>) this.table[hash];
+			int hash = Math.abs(((HashFunctionClosedAddress<T>) this.hashFunction).hash(element));
 
-		if (elementsList != null) {
-			if (elementsList.size() > 1) {
-				this.COLLISIONS--;
-			}
+			LinkedList<T> elementsList = (LinkedList<T>) this.table[hash];
 
-			elementsList.remove(element);
-			this.elements--;
+			if (elementsList != null) {
+				if (elementsList.size() > 1) {
+					this.COLLISIONS--;
+				}
 
-			if (elementsList.isEmpty()) {
-				this.table[hash] = null;
+				elementsList.remove(element);
+				this.elements--;
+
+				if (elementsList.isEmpty()) {
+					this.table[hash] = null;
+				}
+
 			}
 
 		}
@@ -142,21 +124,25 @@ public class HashtableClosedAddressImpl<T> extends
 	public T search(T element) {
 		T result = null;
 
-		int hash = ((HashFunctionClosedAddress<T>) this.hashFunction).hash(element);
+		if (element != null && !this.isEmpty()) {
 
-		if (this.table[hash] != null) {
-			boolean containsElement = false;
+			int hash = Math.abs(((HashFunctionClosedAddress<T>) this.hashFunction).hash(element));
 
-			for (T e: (LinkedList<T>) this.table[hash]) {
-				if (e.equals(element)) {
-					containsElement = true;
-					break;
+			if (this.table[hash] != null) {
+				boolean containsElement = false;
+
+				for (T e : (LinkedList<T>) this.table[hash]) {
+					if (e.equals(element)) {
+						containsElement = true;
+						break;
+					}
+				}
+
+				if (containsElement) {
+					result = ((LinkedList<T>) this.table[hash]).get(((LinkedList<T>) this.table[hash]).indexOf(element));
 				}
 			}
 
-			if (containsElement) {
-				result = ((LinkedList<T>) this.table[hash]).get(((LinkedList<T>) this.table[hash]).indexOf(element));
-			}
 		}
 
 		return result;
@@ -166,21 +152,25 @@ public class HashtableClosedAddressImpl<T> extends
 	public int indexOf(T element) {
 		int result = -1;
 
-		int hash = ((HashFunctionClosedAddress<T>) this.hashFunction).hash(element);
+		if (element != null && !this.isEmpty()) {
 
-		if (this.table[hash] != null) {
-			boolean containsElement = false;
+			int hash = Math.abs(((HashFunctionClosedAddress<T>) this.hashFunction).hash(element));
 
-			for (T e: (LinkedList<T>) this.table[hash]) {
-				if (e.equals(element)) {
-					containsElement = true;
-					break;
+			if (this.table[hash] != null) {
+				boolean containsElement = false;
+
+				for (T e : (LinkedList<T>) this.table[hash]) {
+					if (e.equals(element)) {
+						containsElement = true;
+						break;
+					}
+				}
+
+				if (containsElement) {
+					result = hash;
 				}
 			}
 
-			if (containsElement) {
-				result = hash;
-			}
 		}
 
 		return result;
