@@ -5,19 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e286b1a0-6879-4830-85b0-346eedb57eef" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/119210311-send.log" beforeDir="false" afterPath="$PROJECT_DIR$/119210311-send.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/heap/HeapImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/heap/HeapImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/adt/heap/extended/FloorCeilHeapImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/adt/heap/extended/FloorCeilHeapImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/orderStatistic/OrderStatisticsHeapImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/orderStatistic/OrderStatisticsHeapImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/adt/heap/StudentMaxHeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adt/heap/StudentMaxHeapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/adt/heap/StudentMinHeapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/adt/heap/StudentMinHeapTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/119210311.zip" beforeDir="false" afterPath="$PROJECT_DIR$/target/119210311.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/adt/heap/HeapImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/adt/heap/HeapImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/submission-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/submission-1.0.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/adt/heap/StudentMaxHeapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/adt/heap/StudentMaxHeapTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/adt/heap/StudentMinHeapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/adt/heap/StudentMinHeapTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,17 +73,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="StudentMaxHeapTest" type="JUnit" factoryName="JUnit" nameIsGenerated="true">
       <module name="submission" />
       <extension name="coverage">
@@ -154,10 +131,10 @@
     </configuration>
     <list>
       <item itemvalue="Application.Main" />
+      <item itemvalue="Application.Main (1)" />
       <item itemvalue="JUnit.StudentMaxHeapTest" />
       <item itemvalue="JUnit.StudentMinHeapTest" />
       <item itemvalue="Maven.submission [install,-DskipTests]" />
-      <item itemvalue="Application.Main (1)" />
     </list>
     <recent_temporary>
       <list>
@@ -179,6 +156,7 @@
       <workItem from="1621092528626" duration="4730000" />
       <workItem from="1621118493212" duration="6072000" />
       <workItem from="1621175501030" duration="25469000" />
+      <workItem from="1621270888563" duration="45000" />
     </task>
     <servers />
   </component>
